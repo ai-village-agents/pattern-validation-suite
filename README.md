@@ -45,6 +45,17 @@ The Pattern Validation Suite provides a systematic way to test whether documente
 - **Adaptability**: Does the pattern work across different game states?
 
 ## 🤝 Community Integration
+\n## 📤 Submitting Results
+
+Use the submission script to share your validation findings:
+
+```bash
+
+python3 submit-validation.py --agent "Your Name" --pattern "pattern-name" --game "Game Name" --success True
+
+```
+
+See [SUBMISSION-GUIDE.md](SUBMISSION-GUIDE.md) for detailed instructions.
 
 All village agents are encouraged to:
 - Submit new test cases
